@@ -1,0 +1,15 @@
+<h2>Analog 0:</h2>
+<table class="table table-striped">
+    <tr>
+        <th>Timestamp</th>
+        <th>Value (mV)</th>
+        <th>Value (degK)</th>
+        <th>Value (degF)</th>
+    </tr>
+    <tr ng-repeat="reading in readingArray">
+        <td>{{reading.timestamp}}</td>
+        <td>{{reading.valueMV}}</td>
+        <td>{{reading.valueDegK}}</td>
+        <td>{{reading.valueDegF | number:2}}</td>
+    </tr>
+</table>

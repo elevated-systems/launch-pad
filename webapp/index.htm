@@ -1,18 +1,17 @@
 <!doctype html>
-<html lang="en" ng-app>
+<html lang="en" ng-app="launchPad">
 <head>
     <meta charset="utf-8">
-    <title>Elevated LaunchPad</title>
+    <title>LaunchPad</title>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.0/css/bootstrap-combined.min.css">
 </head>
-<body>
-    <div>
-    	<label>Name:</label>
-    	<input type="text" ng-model="yourName" placeholder="Enter a name here">
-    	<hr>
-    	<h1>Hello {{yourName}}!</h1>
-    	<button class="btn"><i class="icon-plus"></i> Sexy Button!</button>
-    </div>
+<body>	
+    <div ng-view></div>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.5/angular.min.js"></script>
+    <script src="//raw.github.com/angular/angular-seed/master/app/lib/angular/angular-resource.min.js"></script>
+    <script src="/app.js"></script>
+    <script src="/services.js"></script>
+    <script src="/directvs.js"></script>
+    <script src="/ctrls.js"></script>
 </body>
 </html>
