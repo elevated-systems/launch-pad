@@ -23,7 +23,7 @@ MIT and Creative Commons Attribution 3.0
 Requirements
 ------------
 * Arduino (support for Raspberry Pi coming soon...)
-* TinyWebServer (https://github.com/ovidiucp/TinyWebServer) compatible networking sheild/module (currently tested with Arduino Ethernet, Wifi coming soon...)
+* TinyWebServer compatible networking sheild/module (currently tested with Arduino Ethernet, Wifi coming soon...)
 * SD card sheild/module
 * ability to load a sketch onto the Arduino
 * ability to load files onto SD card
@@ -32,6 +32,7 @@ Or just grab a LaunchPad kit (coming soon...)
 
 Getting Started
 ---------------
+0. Install Arduino library dependencies of: Flash (http://arduiniana.org/libraries/flash/) and TinyWebServer (https://github.com/ovidiucp/TinyWebServer)
 1. Assemble Arduino, networking sheild (if not built-in), SD card sheild (if not built-in)
 2. Load all files in /webapp directory onto SD card
 3. Tweak launch_pad.ino sketch in /arduino/launch_pad directory to represent your network configuration
