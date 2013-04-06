@@ -16,6 +16,20 @@ The hope is that removing some of the barriers of entry to play with embedded sy
 
 In that sense LaunchPad is also an ambassador from the state of software and embedded systems to the world of makers, artists, tinkerers or anything else.
 
+Technologies
+------------
+HW
+*Arduino
+*Raspberry Pi
+
+SW
+*TinyWebServer (Arduino server)
+*NodeJS (Raspberry Pi server)
+*HTML5
+*Javascript
+*Coffeescript
+*AngularJS
+
 Licenses
 --------
 MIT and Creative Commons Attribution 3.0
