@@ -19,16 +19,18 @@ In that sense LaunchPad is also an ambassador from the state of software and emb
 Technologies
 ------------
 HW
-*Arduino
-*Raspberry Pi
+
+* Arduino
+* Raspberry Pi
 
 SW
-*TinyWebServer (Arduino server)
-*NodeJS (Raspberry Pi server)
-*HTML5
-*Javascript
-*Coffeescript
-*AngularJS
+
+* TinyWebServer (Arduino server)
+* NodeJS (Raspberry Pi server)
+* HTML5
+* Javascript
+* Coffeescript
+* AngularJS
 
 Licenses
 --------
